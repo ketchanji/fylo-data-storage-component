@@ -193,6 +193,16 @@ ul li {
         border-radius: 10px;
         background-color: hsl(228, 56%, 26%);
       }
+      .logo {
+        width: 50%;
+        height: 10px;
+        padding-top: 120px;
+        margin-left: 20px;
+        background-image: url(./images/logo.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
       .storage-left p{
         font-size: 15px;
         text-align: center;
@@ -230,7 +240,7 @@ ul li {
         column-gap: 10px;
         position: absolute;
         left: 7rem;
-        top: 14rem;
+        top: 17rem;
       }
       .container2 {
         width: 70%;
@@ -238,6 +248,33 @@ ul li {
         margin-top: 50px;
         border-radius: 10px;
         background-color: hsl(228, 56%, 26%);
+      }
+      .container1 {
+        width: 40%;
+        height: 23vh;
+        border-top-right-radius: 75px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-color: hsl(228, 56%, 26%);
+      }
+      .logo {
+        width: 50%;
+        height: 10px;
+        padding-top: 110px;
+        margin-left: 20px;
+        background-image: url(./images/logo.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      ul {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: -29px;
+        margin-left: 20px;
       }
       .storage-left p{
         font-size: 12px;
@@ -249,7 +286,7 @@ ul li {
       .text .contex p {
         color: hsl(229, 7%, 55%);
         padding-top: 12px;
-        font-size: 12px;
+        font-size: 11px;
       }
       .text .contex span {
         color: hsl(0, 0%, 100%);
@@ -261,4 +298,361 @@ ul li {
         margin-top: 10px;
         background-color: hsl(228, 56%, 26%);
       }
+}
+@media only screen and (max-width: 425px) {
+    .section {
+        width: 100%;
+        height: 100vh;
+        background-image: url(/images/bg-mobile.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .bottom {
+        width: 100%;
+        height: 50vh;
+        display: none;
+      }
+      .main {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 10px;
+        position: absolute;
+        left: 0rem;
+        top: 8rem;
+      }
+      .container1 {
+        width: 90%;
+        height: 53vh;
+        border-top-right-radius: 75px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-color: hsl(228, 56%, 26%);
+      }
+      .logo {
+        width: 40%;
+        height: 5px;
+        padding-top: 90px;
+        margin-left: 25px;
+        background-image: url(./images/logo.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      ul {
+        width: 55%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 4px;
+        margin-left: 25px;
+      }
+      .container2 {
+        width: 90%;
+        height: 26vh;
+        margin-top: 10px;
+        border-radius: 10px;
+        background-color: hsl(228, 56%, 26%);
+      }
+      .storage-left {
+        width: 50%;
+        height: 60px;
+        border-radius: 15px;
+        position: relative;
+        left: .2rem;
+        top: 3rem;
+        border: 2px solid black;
+        background-color: rgb(255, 255, 255);
+      } 
+      .storage-left::after{
+        display: none;
+      }     
+      .storage-left p{
+        font-size: 17px;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: 800;
+        color: black;
+      }
+      .text {
+        width: 90%;
+        height: 30px;
+        margin: auto;
+        padding-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .text .contex p {
+        color: hsl(229, 7%, 55%);
+        padding-top: 12px;
+        font-size: 17px;
+      }
+      .text .contex span {
+        color: hsl(0, 0%, 100%);
+      }
+      .inner {
+        width: 80%;
+        height: 25vh;
+        margin: auto;
+        margin-top: 4px;
+        background-color: hsl(228, 56%, 26%);
+      }
+      .remains {
+        width: 90%;
+        height: 10px;
+        margin-left: 20px;
+        margin-top: 6px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }      
+}
+@media only screen and (max-width: 375px) {
+    .section {
+        width: 100%;
+        height: 100vh;
+        background-image: url(/images/bg-mobile.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .bottom {
+        width: 100%;
+        height: 50vh;
+        display: none;
+      }
+      .main {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 10px;
+        position: absolute;
+        left: 0rem;
+        top: 8rem;
+      }
+      .container1 {
+        width: 90%;
+        height: 53vh;
+        border-top-right-radius: 75px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-color: hsl(228, 56%, 26%);
+      }
+      .logo {
+        width: 40%;
+        height: 5px;
+        padding-top: 90px;
+        margin-left: 25px;
+        background-image: url(./images/logo.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      ul {
+        width: 55%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 4px;
+        margin-left: 25px;
+      }
+      .container2 {
+        width: 90%;
+        height: 26vh;
+        margin-top: 10px;
+        border-radius: 10px;
+        background-color: hsl(228, 56%, 26%);
+      }
+      .storage-left {
+        width: 50%;
+        height: 60px;
+        border-radius: 15px;
+        position: relative;
+        left: .1rem;
+        top: 3rem;
+        border: 2px solid black;
+        background-color: rgb(255, 255, 255);
+      } 
+      .storage-left::after{
+        display: none;
+      }     
+      .storage-left p{
+        font-size: 17px;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: 800;
+        color: black;
+      }
+      .text {
+        width: 90%;
+        height: 30px;
+        margin: auto;
+        padding-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .text .contex p {
+        color: hsl(229, 7%, 55%);
+        padding-top: 12px;
+        font-size: 15px;
+      }
+      .text .contex span {
+        color: hsl(0, 0%, 100%);
+      }
+      .right {
+        width: 29%;
+        height: 10px;
+        border-radius: 10px;
+        background-color: hsl(229, 57%, 11%);
+      }
+      .inner {
+        width: 80%;
+        height: 25vh;
+        margin: auto;
+        margin-top: 4px;
+        background-color: hsl(228, 56%, 26%);
+      }
+      .remains {
+        width: 90%;
+        height: 10px;
+        margin-left: 20px;
+        margin-top: 6px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }      
+}
+@media only screen and (max-width: 375px) {
+    .section {
+        width: 100%;
+        height: 100vh;
+        background-image: url(/images/bg-mobile.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .bottom {
+        width: 100%;
+        height: 50vh;
+        display: none;
+      }
+      .main {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 10px;
+        position: absolute;
+        left: 0rem;
+        top: 8rem;
+      }
+      .container1 {
+        width: 90%;
+        height: 53vh;
+        border-top-right-radius: 75px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-color: hsl(228, 56%, 26%);
+      }
+      .logo {
+        width: 40%;
+        height: 5px;
+        padding-top: 90px;
+        margin-left: 25px;
+        background-image: url(./images/logo.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      ul {
+        width: 55%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 4px;
+        margin-left: 25px;
+      }
+      .container2 {
+        width: 90%;
+        height: 26vh;
+        margin-top: 10px;
+        border-radius: 10px;
+        background-color: hsl(228, 56%, 26%);
+      }
+      .storage-left {
+        width: 50%;
+        height: 60px;
+        border-radius: 15px;
+        position: relative;
+        left: .1rem;
+        top: 3.5rem;
+        border: 2px solid black;
+        background-color: rgb(255, 255, 255);
+      } 
+      .storage-left::after{
+        display: none;
+      }     
+      .storage-left p{
+        font-size: 15px;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: 800;
+        color: black;
+      }
+      .text {
+        width: 90%;
+        height: 30px;
+        margin: auto;
+        padding-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .text .contex p {
+        color: hsl(229, 7%, 55%);
+        padding-top: 12px;
+        font-size: 13px;
+      }
+      .text .contex span {
+        color: hsl(0, 0%, 100%);
+      }
+      .right {
+        width: 29%;
+        height: 10px;
+        border-radius: 10px;
+        background-color: hsl(229, 57%, 11%);
+      }
+      .inner {
+        width: 80%;
+        height: 25vh;
+        margin: auto;
+        margin-top: 4px;
+        background-color: hsl(228, 56%, 26%);
+      }
+      .remains {
+        width: 90%;
+        height: 10px;
+        margin-left: 20px;
+        margin-top: 6px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }      
 }
