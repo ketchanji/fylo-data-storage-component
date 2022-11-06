@@ -133,15 +133,17 @@ ul li {
   background-color: hsl(6, 100%, 80%);
 }
 .middle {
-  width: 3%;
+  width: 5%;
   height: 10px;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   background-color: rgb(255, 255, 255);
 }
 .right {
   width: 27%;
   height: 10px;
-  border-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
   background-color: hsl(229, 57%, 11%);
 }
 
