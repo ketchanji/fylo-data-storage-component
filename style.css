@@ -124,7 +124,7 @@ ul li {
   border-radius: 10px;
   display: flex;
   align-items: center;
-  background-color: rgb(224, 109, 235);
+  background-color: hsl(6, 100%, 80%);
 }
 .left {
   width: 70%;
