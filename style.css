@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(229, 57%, 11%);
+}
+.header{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+.main{
+    width: 60%;
+    height: 23vh;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    position: absolute;
+    left: 17rem;
+    top: 15rem;
+}
+.container1{
+    width: 35%;
+    height: 23vh;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    background-color: hsl(228, 56%, 26%);
+}
+.logo{
+    width: 50%;
+    height: 10px;
+    padding-top: 60px;
+    margin-left: 20px;
+    background-image: url(./images/logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2px;
+    margin-left: 20px;
+}
+ul li{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 40%;
+    background-color: hsl(229, 57%, 11%);
+    list-style: none;
+}
+
+.container2{
+    width: 60%;
+    height: 16vh;
+    margin-top: 45px;
+    border-radius: 10px;
+    background-color: hsl(228, 56%, 26%);
+}
+.inner{
+    width: 80%;
+    height: 13vh;
+    margin: auto;
+    margin-top: 11px;
+    background-color: hsl(228, 56%, 26%);
+}
+.text p{
+    color: hsl(229, 7%, 55%);
+    padding-top: 12px;
+    padding-left: 20px;
+}
+.text span{
+    color: hsl(0, 0%, 100%);
+}
+.storage-rate{
+    width: 90%;
+    height: 10px;
+    margin-top: 7px;
+    margin-left: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(224, 109, 235);
+}
+.left{
+    width: 70%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: hsl(6, 100%, 80%);
+}
+.middle{
+    width: 3%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.right{
+    width: 27%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: hsl(229, 57%, 11%);
+}
+
+.remains{
+    width: 90%;
+    height: 10px;
+    margin-left: 20px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remains p{
+    font-size: 10px;
+    color: hsl(230, 12%, 90%);
+}
+
+
+
+.bottom{
+    width: 100%;
+    height: 50vh;
+    background-image: url(/images/bg-desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
