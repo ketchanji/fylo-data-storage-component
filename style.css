@@ -29,7 +29,6 @@
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-
   background-color: hsl(228, 56%, 26%);
 }
 .logo {
@@ -176,5 +175,90 @@ ul li {
         width: 100%;
         height: 100vh;
         background-color: hsl(229, 57%, 11%);
+      }
+      .main {
+        width: 70%;
+        height: 23vh;
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        position: absolute;
+        left: 10rem;
+        top: 24rem;
+      }
+      .container2 {
+        width: 70%;
+        height: 16vh;
+        margin-top: 70px;
+        border-radius: 10px;
+        background-color: hsl(228, 56%, 26%);
+      }
+      .storage-left p{
+        font-size: 15px;
+        text-align: center;
+        padding-top: 12px;
+        font-weight: 800;
+        color: black;
+      }
+      .text .contex p {
+        color: hsl(229, 7%, 55%);
+        padding-top: 12px;
+        font-size: 16px;
+      }
+      .text .contex span {
+        color: hsl(0, 0%, 100%);
+      }
+      .inner {
+        width: 80%;
+        height: 13vh;
+        margin: auto;
+        margin-top: 30px;
+        background-color: hsl(228, 56%, 26%);
+      }
+}
+@media only screen and (max-width: 768px) {
+    .section {
+        width: 100%;
+        height: 100vh;
+        background-color: hsl(229, 57%, 11%);
+      }
+      .main {
+        width: 70%;
+        height: 23vh;
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        position: absolute;
+        left: 7rem;
+        top: 14rem;
+      }
+      .container2 {
+        width: 70%;
+        height: 16vh;
+        margin-top: 50px;
+        border-radius: 10px;
+        background-color: hsl(228, 56%, 26%);
+      }
+      .storage-left p{
+        font-size: 12px;
+        text-align: center;
+        padding-top: 12px;
+        font-weight: 800;
+        color: black;
+      }
+      .text .contex p {
+        color: hsl(229, 7%, 55%);
+        padding-top: 12px;
+        font-size: 12px;
+      }
+      .text .contex span {
+        color: hsl(0, 0%, 100%);
+      }
+      .inner {
+        width: 80%;
+        height: 13vh;
+        margin: auto;
+        margin-top: 10px;
+        background-color: hsl(228, 56%, 26%);
       }
 }
